@@ -5,6 +5,6 @@ app.get('/', (req, res) => {
   res.send('Hello there!');
 })
 
-app.listen(8002, () => {
-  console.log('running on 8002');
+app.listen(3001, () => {
+  console.log('running on 3001');
 })
